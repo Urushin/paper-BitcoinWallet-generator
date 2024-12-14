@@ -1,0 +1,169 @@
+/* Global */
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #0d1117, #161b22);
+    color: #c9d1d9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Conteneur */
+  .container {
+    text-align: center;
+    background: linear-gradient(145deg, #1b1f26, #13171d); /* Couleurs atténuées */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Titre */
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #58a6ff;
+  }
+  
+  /* Sous-titre */
+  .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #8b949e;
+  }
+  
+  /* Boutons */
+  .button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(145deg, #1e7a34, #248c3f); /* Couleurs adoucies */
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 3px 10px rgba(0, 255, 120, 0.15); /* Ombres douces */
+    margin: 10px;
+  }
+  
+  .button:hover {
+    transform: translateY(-1px); /* Réduction du déplacement */
+    box-shadow: 0 6px 12px rgba(0, 255, 120, 0.25); /* Ombres réduites */
+  }
+  
+  /* Warning */
+  .warning {
+    color: #f85149;
+    background: rgba(248, 81, 73, 0.05); /* Couleur moins lumineuse */
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Résultats */
+  .result {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .result-box {
+    background: #0d1117;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #30363d;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* Ombres atténuées */
+  }
+  
+  .result-box h3 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #58a6ff;
+  }
+  
+  .result-box p {
+    font-size: 0.9rem;
+    word-wrap: break-word;
+  }
+  
+  .result-box img {
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto; /* Centre les QR Codes */
+    background: rgba(20, 25, 30, 0.95); /* Fond sombre */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Message de copie */
+  .copied-message {
+    color: #9cb3c9; /* Couleur plus douce */
+    background: rgba(88, 166, 255, 0.05); /* Fond atténué */
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+  /* Conteneur de texte et icône */
+.copy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Bouton d'icône */
+  .icon-button {
+    background: none;
+    border: none;
+    color: #58a6ff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .icon-button:hover {
+    color: #8b949e;
+  }
+
+  /* Crédit */
+.credit {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #8b949e;
+    text-align: center;
+  }
+  
+  .credit a {
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .credit a:hover {
+    color: #8b949e;
+  }
+  
+  
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
