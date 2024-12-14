@@ -65,5 +65,5 @@ Ce projet est une application web interactive qui permet aux utilisateurs de gé
 ## 🖼️ **Aperçu de l'Interface**
 | Fonctionnalité | Aperçu |
 |----------------|--------|
-| **Génération de clés** | ![Génération de clés](assets/screenshots/screen_menu.png) |
-| **QR Codes**          | ![QR Codes](assets/screenshots/screen_sortie.png) |
+| **Menu** | ![Génération de clés](assets/screenshots/screen_menu.png) |
+| **Génération de clés + QRCodes**          | ![QR Codes](assets/screenshots/screen_sortie.png) |
